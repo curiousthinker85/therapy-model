@@ -4,7 +4,7 @@ import requests
 
 app = Flask(__name__)
 
-LLM_API_URL = "http://localhost:8000/generate"
+LLM_API_URL = "https://therapy-model-lzd1.onrender.com"
 
 @app.route("/")
 def home():
