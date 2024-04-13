@@ -6,3 +6,6 @@ flask
 requests
 sentencepiece
 protobuf
+torch
+tensorflow>= 2.0
+flax
